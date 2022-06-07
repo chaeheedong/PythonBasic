@@ -15,7 +15,6 @@ print()
 
 print("변수 이름 규칙")
 
-#**TODO** 변수이름규칙 camel, snake, pascal 정리해서 포스팅하기
 print()
 # ===========================
 

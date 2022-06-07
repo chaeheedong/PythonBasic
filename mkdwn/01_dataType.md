@@ -1,8 +1,21 @@
-# _자료형_
+# 자료형
 
-> 자료형이란?
+## 목차
 
-<br/>
+---
+
+- 자료형
+- 자료형(기본)
+- 자료형(집합형)
+- 자료형 확인
+
+---
+
+<br/><br/><br/>
+
+### 자료형
+
+---
 
 [참조 :: 위키백과 - 파이썬 자료형](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC#%EC%9E%90%EB%A3%8C%ED%98%95)
 
@@ -25,13 +38,11 @@
 집합형 - 중복을 허락하지 않는다. 변경 가능하게도, 변경 불가능하게도 만들 수 있다.  
 또 많은 객체 지향 언어와 같이, 사용자가 새롭게 자신의 형을 정의할 수도 있다.
 
-<br/>
+<br/><br/><br/>
+
+### 자료형(기본)
 
 ---
-
-<br/>
-
-# _자료형(기본)_
 
 ```python
 foo = None         # NoneType
@@ -45,13 +56,11 @@ foo = 1j           # complex
 foo = True         # bool
 ```
 
-<br/>
+<br/><br/><br/>
+
+### 자료형(집합형)
 
 ---
-
-<br/>
-
-# _자료형(집합형)_
 
 ```python
 foo = ["FOO", "BAR", "BAZ"]      # list
@@ -62,15 +71,14 @@ foo = {"FOO", "BAR", "BAZ"}      # set
 foo = frozenset({"FOO", "BAR"})  # frozenset
 ```
 
-<br/>
+<br/><br/><br/>
+
+
+### 자료형 확인
 
 ---
 
-<br/>
-
-# _자료형 확인하기_
-
-> 자료형을 확인하려면 type 함수를 이용하면 된다.
+- 자료형을 확인 하려면 type 함수를 이용하면 된다.
 
 ```python
 foo = None
@@ -118,9 +126,3 @@ print(type(foo)) # set
 foo = frozenset({"FOO", "BAR"})
 print(type(foo)) # frozenset
 ```
-
-<br/>
-
----
-
-<br/>
